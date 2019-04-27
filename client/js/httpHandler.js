@@ -10,7 +10,7 @@
       type: 'GET',
       url: serverUrl,
       success: (response) => {
-        SwimTeam.move(response._data)
+        SwimTeam.move(response._data);
         console.log(response, 'success');
       },
       error: (response) => {
