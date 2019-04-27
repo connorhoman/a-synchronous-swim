@@ -6,7 +6,6 @@ const SwimTeam = {
   max: { top: 0, left: 0, bottom: 295, right: 240 },
 
   move: (direction) => {
-    console.log('hello');
     if (!SwimTeam.valid(direction)) {
       return;
     }
