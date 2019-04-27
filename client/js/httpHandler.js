@@ -5,16 +5,16 @@
   
   //TODO: build the swim command fetcher here
   
-  const ajaxFetcher = () => {
+  //const ajaxFetcher = () => {
     $.ajax({
       type: 'GET',
       url: serverUrl,
       success: (response) => {
-        SwimTeam.move(response._data);
+        // SwimTeam.move(response._data);
         console.log(response);
       }
     });
-  };
+  //};
 
   setInterval(ajaxFetcher, 1000);
 
